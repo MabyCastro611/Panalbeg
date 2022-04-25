@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+html {
+  background-color: #D9C9C7;
+  ;
+}
+
 .searchBottom{
   cursor: pointer;
 }
@@ -184,6 +189,7 @@ p{
   background-color: white;
   padding: 5px 35px 5px 35px;
   border-radius: 8px;
+  margin-top: 30px;
 }
 
 
@@ -246,4 +252,144 @@ footer {
   display: flex;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.boxCard {
+  display: flex;
+  min-height: 90%;
+  /* height: 100vh; */
+}
+
+.boxMenu {
+  background-color: #D9C9C7;
+  height: 90vh;
+  width: 350px;
+  padding: 20px;
+  min-height: 90%;
+}
+
+.titleMenu {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #A60808;
+  font-size: 30px;
+}
+
+.OptionMenu {
+  font-size: 27px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+/* .OptionMenu {
+  background-color: red;
+} */
+
+.products {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: red;
+  min-height: 90%;
+  background-image: url("../assets/images/94688575_110007137358013_7310480275656409088_n.jpg");
+}
+
+.boxProducts {
+  background-color: rgba(192, 156, 153, 0.46);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boxCards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.cardProducts {
+  background-color: white;
+  width: 80%;
+  margin-right: 20px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.cardProducts:hover{
+  padding: 10px;
+}
+
+.imgCardProduct {
+  width: 100%;
+  height: 125px;
+  object-fit: cover;
+}
+
+.titleCardProduct{
+  font-size: 18px;
+  color: #bb0a0a;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.buttonProducts {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #A60808;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: #404040; 
+ }
+ 
+
+a:hover {
+  border-bottom: 1px solid #850606;
+  color: #850606;
+}
+
+.subMenuPanaderia {
+  display: none;
+}
+
+.subMenuPanaderia:hover {
+  display: block;
+}
+
+.panaderiaMenu {
+  transition: 0.5s;
+}
+
+.panaderiaMenu:hover + ul {
+  display: block;
+}
+
+.titleMenu h3 {
+  font-size: 30px;
 }
