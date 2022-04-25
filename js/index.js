@@ -1,3 +1,3 @@
 const redirectProducts = () => {
-  window.location.href = "/products.html"
+  window.location.href = "products.html"
 }
